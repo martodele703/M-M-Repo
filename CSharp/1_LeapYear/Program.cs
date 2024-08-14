@@ -6,7 +6,10 @@ public static class Function
 {
     public static bool IsLeap(int year)
     {
-        // Reemplaza esto 👇por tu código 
+        if (year % 4 == 0)
+        {
+            
+        }
         return true;
     }
 }
